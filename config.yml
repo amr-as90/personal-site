@@ -1,0 +1,23 @@
+baseURL: ""
+languageCode: en-us
+title: Amr Shawky
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifer: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifer: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifer: about
+      name: About
+      url: /about/
+      weight: 40
