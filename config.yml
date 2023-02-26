@@ -4,8 +4,24 @@ title: Amr Shawky
 theme: PaperMod
 
 params:
+
+  homeInfoParams:
+    Title: "Hello World!"
+    Content: "Welcome to my Blog I'm Amr, etc.,"
+  socialIcons:
+    - name: instagram
+      url: 'https://www.instagram.com/amr.as90'
+
   cover:
-    LinkFullImages:True
+    linkFullImages: true
+
+
+
+  
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
 
 menu:
   main:
@@ -13,15 +29,25 @@ menu:
       name: Categories
       url: /categories/
       weight: 10
-    - identifer: tags
-      name: Tags
-      url: /tags/
-      weight: 20
+
+    - identifier: search
+      name: 🔍
+      url: /search/
+      weight: 50
+
     - identifer: archives
       name: Archives
       url: /archives/
-      weight: 30
+      weight: 20
+
     - identifer: about
       name: About
       url: /about/
-      weight: 40
+      weight: 30
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
