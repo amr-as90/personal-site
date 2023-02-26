@@ -3,6 +3,10 @@ languageCode: en-us
 title: Amr Shawky
 theme: PaperMod
 
+params:
+  cover:
+    LinkFullImages:True
+
 menu:
   main:
     - identifier: categories
