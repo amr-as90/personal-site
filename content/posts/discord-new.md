@@ -2,6 +2,7 @@
 title: "The Ultimate Discord Guide UAE Edition "
 date: 2023-02-27T14:45:10+04:00
 draft: false
+tags: [tech]
 ---
 
 Since this question is asked quite frequently I thought I'd make a guide on how to voice chat for gaming in the UAE. I'll split this in to two parts, the first part is for normal humans and the second part is for more technical folk and will focus heavily on Discord.
